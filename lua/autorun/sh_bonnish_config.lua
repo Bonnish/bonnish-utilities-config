@@ -6,8 +6,7 @@ BonnishBase = BonnishBase or {}
 -- This file is for Server Owners to configure database 
 -- connections and permissions across all Bonnish addons.
 -- 
--- DO NOT upload this folder to the Workshop. Provide it 
--- as a direct download so owners can edit it locally.
+-- DO NOT upload this folder to the Workshop.
 --=========================================================--
 
 BonnishBase.ServerConfig = {
@@ -36,7 +35,7 @@ BonnishBase.ServerConfig = {
     -- Database settings for future cross-server synchronization.
     -- If Enabled is false, data saves locally (SQLite/JSON).
     Database = {
-        Enabled = true,
+        Enabled = false,
         
         --=========================================================--
         -- MODULE SYNCHRONIZATION
