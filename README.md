@@ -41,7 +41,7 @@ It is 100% compatible with popular admin systems like **ULX, SAM, ServerGuard, a
 Simply add or remove the rank names (in lowercase).
 
 ### 💾 Database
-The Bonnish system features native support for **MySQLOO**, allowing you to share data across different servers (Cross-Server Sync) entirely asynchronously (zero lag).
+The Bonnish system features native support for **MySQL**, allowing you to share data across different servers.
 
 1. Set `Enabled = true` if you wish to use an external database.
 2. Remove the two dashes (`--`) in front of the modules you want to synchronize (e.g., `SyncJobSpawns = true`).
