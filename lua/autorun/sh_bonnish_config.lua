@@ -30,6 +30,13 @@ BonnishBase.ServerConfig = {
     },
 
     --=========================================================--
+    -- UI SETTINGS
+    --=========================================================--
+    -- If true, adds a "Bonnish Utils" button to the Context Menu (Hold C).
+    -- If false, admins can still open the dashboard by typing !bonnish in chat.
+    EnableContextMenuButton = true,
+
+    --=========================================================--
     -- DATABASE (SQL)
     --=========================================================--
     -- Database settings for future cross-server synchronization.
